@@ -1,0 +1,54 @@
+body {  
+    margin: 0;
+    padding: 0;
+    background: #D6D6D6;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu {
+    width: 30%;
+    display: inline-block;
+    background: green;
+}
+
+.content {
+    width: 70%;
+    display: inline-block;
+    background: #00D700;
+    float: right;
+    padding: 15px;
+}
+
+.header {
+    width: 100%;
+    background: #008A00;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
